@@ -18,7 +18,4 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MasterDetailViewModelBase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WebViewViewModelBase.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-us\Resources.resw" />
-  </ItemGroup>
 </Project>
