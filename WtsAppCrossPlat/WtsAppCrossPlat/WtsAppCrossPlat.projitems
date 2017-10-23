@@ -17,8 +17,8 @@
       <DependentUpon>ShellPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\ShellPageDetail.xaml.cs">
-      <DependentUpon>ShellPageDetail.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\BlankPage.xaml.cs">
+      <DependentUpon>BlankPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\ShellPageMaster.xaml.cs">
@@ -54,7 +54,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ShellPageDetail.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\BlankPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

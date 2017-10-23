@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace WtsAppCrossPlat.Mobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ShellPageDetail : ContentPage
+    public partial class BlankPage : ContentPage
     {
-        public ShellPageDetail()
+        public BlankPage()
         {
             InitializeComponent();
         }
