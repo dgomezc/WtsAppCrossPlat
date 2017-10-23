@@ -16,7 +16,8 @@ namespace WtsAppCrossPlat.Mobile.ViewModels
             MenuItems = new ObservableCollection<ShellPageMenuItem>(new[]
             {
                 new ShellPageMenuItem { Id = 0, Title = "Blank", TargetType = typeof(BlankPage) },
-                new ShellPageMenuItem { Id = 1, Title = "Web view page", TargetType = typeof(WebViewPage) }
+                new ShellPageMenuItem { Id = 1, Title = "Web View", TargetType = typeof(WebViewPage) },
+                new ShellPageMenuItem { Id = 1, Title = "Master Detail", TargetType = typeof(MasterDetailPage) }
             });
         }
     }

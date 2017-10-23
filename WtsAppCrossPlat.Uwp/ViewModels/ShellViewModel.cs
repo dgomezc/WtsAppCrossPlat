@@ -156,6 +156,7 @@ namespace WtsAppCrossPlat.Uwp.ViewModels
             // Edit String/en-US/Resources.resw: Add a menu item title for each page
             _primaryItems.Add(ShellNavigationItem.FromType<BlankPage>("Shell_Blank".GetLocalized(), Symbol.Document));
             _primaryItems.Add(ShellNavigationItem.FromType<WebViewPage>("Shell_WebView".GetLocalized(), Symbol.Document));
+            _primaryItems.Add(ShellNavigationItem.FromType<MasterDetailPage>("Shell_MasterDetail".GetLocalized(), Symbol.Document));
 
         }
 

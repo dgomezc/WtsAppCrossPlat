@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace WtsAppCrossPlat.Mobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ShellPage : MasterDetailPage
+    public partial class ShellPage : Xamarin.Forms.MasterDetailPage
     {
         public ShellPage()
         {
