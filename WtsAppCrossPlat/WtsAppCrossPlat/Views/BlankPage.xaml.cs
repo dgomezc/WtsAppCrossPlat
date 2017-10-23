@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using WtsAppCrossPlat.Core.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +10,9 @@ namespace WtsAppCrossPlat.Mobile.Views
         public BlankPage()
         {
             InitializeComponent();
+            BindingContext = ViewModel;
         }
+
+        public BlankViewModel ViewModel { get; } = new BlankViewModel();
     }
 }

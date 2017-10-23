@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
 using WtsAppCrossPlat.Core.ViewModels;
 using WtsAppCrossPlat.Uwp.Models;
-using Windows.UI.Xaml.Controls;
 using WtsAppCrossPlat.Core.Services;
 
 namespace WtsAppCrossPlat.Uwp.ViewModels

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Windows.Input;
-using WtsAppCrossPlat.Core.Helpers;
 using WtsAppCrossPlat.Core.ViewModels;
 using Xamarin.Forms;
-
 
 namespace WtsAppCrossPlat.Mobile.ViewModels
 {

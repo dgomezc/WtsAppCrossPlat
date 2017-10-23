@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WtsAppCrossPlat.Core.Models;
 using WtsAppCrossPlat.Core.ViewModels;
 using Xamarin.Forms;
@@ -10,7 +7,7 @@ using Xamarin.Forms.Xaml;
 
 namespace WtsAppCrossPlat.Mobile.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MasterDetailPage : ContentPage
 	{
 		public MasterDetailPage ()

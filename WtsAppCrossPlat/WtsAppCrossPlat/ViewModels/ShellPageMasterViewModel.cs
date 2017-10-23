@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
+﻿using System.Collections.ObjectModel;
 using WtsAppCrossPlat.Core.Helpers;
 using WtsAppCrossPlat.Mobile.Views;
 

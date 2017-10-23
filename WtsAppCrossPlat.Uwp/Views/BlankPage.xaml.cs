@@ -10,6 +10,7 @@ namespace WtsAppCrossPlat.Uwp.Views
         public BlankPage()
         {
             InitializeComponent();
+            DataContext = ViewModel;
         }
     }
 }

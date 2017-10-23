@@ -1,5 +1,4 @@
-﻿using System;
-using Windows.UI.Xaml.Controls;
+﻿using Windows.UI.Xaml.Controls;
 using WtsAppCrossPlat.Uwp.ViewModels;
 
 namespace WtsAppCrossPlat.Uwp.Views

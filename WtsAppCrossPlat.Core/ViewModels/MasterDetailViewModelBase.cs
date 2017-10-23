@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Text;
+﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using WtsAppCrossPlat.Core.Helpers;
 using WtsAppCrossPlat.Core.Models;
@@ -12,7 +9,6 @@ namespace WtsAppCrossPlat.Core.ViewModels
     public class MasterDetailViewModelBase<T> : Observable
         where T : SampleOrder
     {
-        private ObservableCollection<T> _sampleItems;
         private T _selectedItem;
 
         public MasterDetailViewModelBase()

@@ -7,5 +7,7 @@ namespace WtsAppCrossPlat.Core.ViewModels
         public BlankViewModel()
         {
         }
+
+        public string ExampleText { get; private set; } = "This is a blank page.";
     }
 }
